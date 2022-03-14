@@ -6,10 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "check": "tsc",
     "lint": "next lint",
     "format": "prettier --config .prettierrc.json --write \"**/*.{css,js,jsx,ts,tsx,md,yml,yaml}\""
   },
   "dependencies": {
+    "@mdx-js/loader": "^2.0.0",
+    "@next/mdx": "^12.1.0",
     "framer-motion": "^6.2.8",
     "next": "12.1.0",
     "react": "17.0.2",

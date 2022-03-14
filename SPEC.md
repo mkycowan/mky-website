@@ -16,8 +16,11 @@ Portfolio and Blog of Michael Cowan - @mky
 - Blog (Backlog / Sprint)
   - "Backlog" - Tools I don't use at my 9-5.
     - Impression / Developer Experience / Final Thoughts
+  - "Red Pill" - Real Word Projects and Development Methods
 - Shop
   - Code Snippets / Templates
+- Themes: Grayscale + Cyber + Retro
+  - Inspiration: Linear App + PlanetScale + RayCast
 
 ## Stack + Libraries
 
