@@ -11,7 +11,7 @@ function PostLayout({ meta, children }: any) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       PostLayout
-      <div>{children}</div>
+      <article className="prose lg:prose-xl">{children}</article>
       <p>Written by: {metaData?.author}</p>
     </div>
   );
