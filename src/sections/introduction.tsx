@@ -47,11 +47,17 @@ export function Introduction() {
             01 - Introduction
           </span>
           <div className="my-4 text-4xl sm:text-5xl lg:text-6xl">
-            <h1 className="text-zinc-500">
+            {/* <h1 className="text-zinc-500">
               Hey, <span className="text-zinc-100">I&apos;m Michael</span> and
             </h1>
             <h1 className="text-zinc-500">
               this is <span className="text-zinc-100">Mikeyverse</span> v2.0
+            </h1> */}
+            <h1>
+              JavaScript Software Engineer{" "}
+              <span className="text-zinc-500">
+                with a passion for UX and DX.
+              </span>
             </h1>
           </div>
           <p className="mt-6 mb-4 text-xl sm:text-2xl md:text-2xl text-zinc-400">

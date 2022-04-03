@@ -1,3 +1,4 @@
+import { MenuIcon } from "@utils/icons";
 import Link from "next/link";
 import React from "react";
 
@@ -19,7 +20,11 @@ export function NavigationBar() {
           </div>
         </Link>
       </div>
-      <div>Right Side</div>
+      <div>
+        {/* <div className="lg:hidden p-1.5 rounded-sm bg-zinc-600">
+          <MenuIcon className="h-6" />
+        </div> */}
+      </div>
     </nav>
   );
 }
