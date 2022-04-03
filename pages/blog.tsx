@@ -5,11 +5,6 @@ import Link from "next/link";
 import { ArticleMeta } from "utils/types";
 import { getBlogPosts } from "@utils/content";
 
-import { Introduction } from "@sections/introduction";
-import { Expertise } from "@sections/expertise";
-import { SideProjects } from "@sections/side-projects";
-import { Resume } from "@sections/resume";
-
 interface HomePageProps {
   articles: Array<ArticleMeta>;
 }
@@ -23,15 +18,12 @@ const Home = ({ articles }: HomePageProps) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/* {articles.map((article, index) => (
+        <h1 className="text-2xl">Blog.</h1>
+        {articles.map((article, index) => (
           <Link href={`/blog/${article.slug}`} key={article.slug || index}>
             <h1>{article?.title || ""}</h1>
           </Link>
-        ))} */}
-        <Introduction />
-        <Expertise />
-        <Resume />
-        <SideProjects />
+        ))}
       </main>
       <footer></footer>
     </div>
