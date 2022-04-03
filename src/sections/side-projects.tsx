@@ -21,7 +21,7 @@ export function SideProjects() {
             <h3 className="text-2xl">01</h3>
             <p className="mt-2 text-zinc-500">Project description</p>
           </div>
-          <div className="flex-1 bg-zinc-600/25 ml-4 md:ml-8">
+          <div className="flex-1 flex items-center justify-center bg-zinc-600/25 ml-4 md:ml-8 rounded-tl-xl">
             Preview Container
           </div>
         </div>
@@ -30,7 +30,7 @@ export function SideProjects() {
             <h3 className="text-2xl">02</h3>
             <p className="mt-2 text-zinc-500">Project description</p>
           </div>
-          <div className="flex-1 bg-zinc-600/25 mx-4 md:mx-8">
+          <div className="flex-1 flex items-center justify-center bg-zinc-600/25 mx-4 md:mx-8 rounded-t-2xl">
             Preview Container
           </div>
         </div>
@@ -39,7 +39,7 @@ export function SideProjects() {
             <h3 className="text-2xl">03</h3>
             <p className="mt-2 text-zinc-500">Project description</p>
           </div>
-          <div className="flex-1 bg-zinc-600/25 m-4 md:m-8 mt-0">
+          <div className="flex-1 flex items-center justify-center bg-zinc-600/25 m-4 md:m-8 mt-0 md:mt-0 rounded-xl">
             Preview Container
           </div>
         </div>
@@ -48,7 +48,7 @@ export function SideProjects() {
             <h3 className="text-2xl">04</h3>
             <p className="mt-2 text-zinc-500">Project description</p>
           </div>
-          <div className="flex-1 bg-zinc-600/25 m-4 md:m-8 mt-0">
+          <div className="flex-1 flex items-center justify-center bg-zinc-600/25 m-4 md:m-8 mt-0 md:mt-0 rounded-xl">
             Preview Container
           </div>
         </div>

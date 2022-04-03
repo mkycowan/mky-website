@@ -4,11 +4,6 @@ import Head from "next/head";
 import { ArticleMeta } from "utils/types";
 import { getBlogPosts } from "@utils/content";
 
-import { Introduction } from "@sections/introduction";
-import { Expertise } from "@sections/expertise";
-import { SideProjects } from "@sections/side-projects";
-import { Resume } from "@sections/resume";
-
 interface HomePageProps {
   articles: Array<ArticleMeta>;
 }
@@ -28,10 +23,7 @@ const Home = ({ articles }: HomePageProps) => {
             <h1>{article?.title || ""}</h1>
           </Link>
         ))} */}
-        <Introduction />
-        <Expertise />
-        <Resume />
-        <SideProjects />
+        About
       </main>
     </div>
   );

@@ -1,3 +1,4 @@
+import { DownloadIcon } from "@utils/icons";
 import React from "react";
 
 // Inspiration - Abstract / Cloudflare Pages
@@ -42,8 +43,9 @@ export function Resume() {
             <p className="mt-2 text-xl text-zinc-400">
               ATS-Parsing and Max-Offer friendly.
             </p>
-            <a className="shrink inline-block w-auto mt-4 py-2 px-3 bg-zinc-200 hover:bg-zinc-300 text-zinc-700 text-sm cursor-pointer rounded-md">
+            <a className="flex items-center max-w-fit mt-4 py-2 px-5 bg-zinc-200 hover:bg-zinc-300 text-zinc-700 text-lg cursor-pointer rounded-md">
               Download Resume
+              <DownloadIcon className="h-5 ml-2" />
             </a>
           </div>
         </div>

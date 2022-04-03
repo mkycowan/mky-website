@@ -2,7 +2,14 @@ import React from "react";
 
 // Inspiration - Attio
 
-import { AGICIcon, MGMIcon, SFIcon, SFTextIcon, SMSIcon } from "@utils/icons";
+import {
+  AGICIcon,
+  BookmarkIcon,
+  MGMIcon,
+  SFIcon,
+  SFTextIcon,
+  SMSIcon,
+} from "@utils/icons";
 
 export function Expertise() {
   return (
@@ -29,8 +36,8 @@ export function Expertise() {
                 </span>
                 Project description
               </p>
-              <a className="shrink inline-block w-auto mt-4 py-2 px-3 bg-zinc-600 hover:bg-zinc-700 text-sm cursor-pointer rounded-md">
-                Learn More
+              <a className="shrink flex items-center w-auto mt-4 py-2 px-3 bg-zinc-600 hover:bg-zinc-700 text-sm cursor-pointer rounded-md">
+                <BookmarkIcon className="h-4 mr-1" /> Learn More
               </a>
             </div>
           </div>
@@ -46,8 +53,8 @@ export function Expertise() {
                 </span>
                 Project description
               </p>
-              <a className="shrink inline-block w-auto mt-4 py-2 px-3 bg-zinc-600 hover:bg-zinc-700 text-sm cursor-pointer rounded-md">
-                Learn More
+              <a className="shrink flex items-center w-auto mt-4 py-2 px-3 bg-zinc-600 hover:bg-zinc-700 text-sm cursor-pointer rounded-md">
+                <BookmarkIcon className="h-4 mr-1" /> Learn More
               </a>
             </div>
           </div>
@@ -61,8 +68,8 @@ export function Expertise() {
                 <span className="block text-zinc-100">Web Performance</span>
                 Project description
               </p>
-              <a className="shrink inline-block w-auto mt-4 py-2 px-3 bg-zinc-600 hover:bg-zinc-700 text-sm cursor-pointer rounded-md">
-                Learn More
+              <a className="shrink flex items-center w-auto mt-4 py-2 px-3 bg-zinc-600 hover:bg-zinc-700 text-sm cursor-pointer rounded-md">
+                <BookmarkIcon className="h-4 mr-1" /> Learn More
               </a>
             </div>
           </div>

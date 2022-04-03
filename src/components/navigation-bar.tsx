@@ -10,7 +10,14 @@ export function NavigationBar() {
     // </nav>
     <nav className="flex items-center justify-between container max-w-7xl mx-auto px-6 py-6 lg:px-10 lg:py-10">
       <div className="text-xl md:text-2xl">
-        <Link href="/">Mikey ✦</Link>
+        <Link href="/" passHref>
+          <div className="cursor-pointer">
+            Mikey ✦{" "}
+            <span className="ml-2 pl-3 sm:ml-3 sm:pl-4 text-md md:text-2xl border-l-2 border-zinc-500">
+              Portfolio + Blog
+            </span>
+          </div>
+        </Link>
       </div>
       <div>Right Side</div>
     </nav>
