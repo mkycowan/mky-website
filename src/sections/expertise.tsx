@@ -7,7 +7,7 @@ import { AGICIcon, MGMIcon, SFIcon, SFTextIcon, SMSIcon } from "@utils/icons";
 export function Expertise() {
   return (
     <section className="py-8 pb-4 border-y-0 border-zinc-800 flex flex-col items-center">
-      <span className="bg-zinc-600 text-zinc-300 py-1 px-2 text-sm rounded">
+      <span className="bg-zinc-600/75 text-zinc-300 py-1 px-2 text-sm rounded">
         02 - Skills
       </span>
       <h2 className="my-4 text-2xl md:text-3xl lg:text-4xl">
@@ -71,7 +71,7 @@ export function Expertise() {
       <p className="mt-8 mb-2 text-sm text-zinc-500">
         Lorem ipsum dolor sit amet consectetur adipisicing?
       </p>
-      <div className="my-6 grid grid-cols-3 lg:grid-cols-5 gap-4 md:gap-12">
+      <div className="my-8 grid grid-cols-3 lg:grid-cols-5 gap-4 md:gap-12">
         <div className="flex items-center justify-center h-10 md:h-12">
           <MGMIcon />
         </div>

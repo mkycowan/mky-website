@@ -35,7 +35,7 @@ export function Introduction() {
     <section className="py-8 border-b-0 border-zinc-800">
       <div className="grid grid-cols-5 gap-8">
         <div className="col-span-full md:col-span-3">
-          <span className="inline-block bg-zinc-600 text-zinc-300 mb-2 py-1 px-2 text-sm rounded">
+          <span className="inline-block bg-zinc-600/75 text-zinc-300 mb-2 py-1 px-2 text-sm rounded">
             01 - Introduction
           </span>
           <div className="my-4">
@@ -65,7 +65,7 @@ export function Introduction() {
               </div>
             </div>
           ))}
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-zinc-900" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-zinc-900 pointer-events-none" />
         </div>
       </div>
     </section>
