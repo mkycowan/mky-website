@@ -32,7 +32,7 @@ export function Introduction() {
   ]);
 
   return (
-    <section className="py-8 border-b-0 border-zinc-800">
+    <section className="py-0 md:py-8 border-b-0 border-zinc-800">
       <div className="grid grid-cols-5 gap-8">
         <div className="col-span-full md:col-span-3">
           <span className="inline-block bg-zinc-600/75 text-zinc-300 mb-2 py-1 px-2 text-sm rounded">
@@ -49,6 +49,12 @@ export function Introduction() {
           <p className="mt-2 text-xl sm:text-2xl md:text-3xl text-zinc-400">
             Senior Software Engineer @ Superformula
           </p>
+          {/* <input
+            type="email"
+            name="email"
+            className="mt-4 px-4 py-2 w-1/2 bg-zinc-600 border shadow-sm border-zinc-500 placeholder-zinc-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1"
+            placeholder="Your email address"
+          /> */}
         </div>
         <div className="relative col-span-full md:col-span-2">
           {testimonials.map((testimonial) => (

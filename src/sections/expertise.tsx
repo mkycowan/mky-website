@@ -8,7 +8,7 @@ export function Expertise() {
   return (
     <section className="py-8 pb-4 border-y-0 border-zinc-800 flex flex-col items-center">
       <span className="bg-zinc-600/75 text-zinc-300 py-1 px-2 text-sm rounded">
-        02 - Skills
+        02 - Skillset
       </span>
       <h2 className="my-4 text-2xl md:text-3xl lg:text-4xl">
         --- Expertise ---

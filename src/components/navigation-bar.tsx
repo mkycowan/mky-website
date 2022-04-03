@@ -8,10 +8,11 @@ export function NavigationBar() {
     //     <Link href="/">MKY ✦</Link>
     //   </div>
     // </nav>
-    <nav className="container max-w-7xl mx-auto px-6 pt-8 pb-2 lg:px-10 lg:pb-6">
-      <div className="text-2xl">
+    <nav className="flex items-center justify-between container max-w-7xl mx-auto px-6 py-6 lg:px-10 lg:py-10">
+      <div className="text-xl md:text-2xl">
         <Link href="/">Mikey ✦</Link>
       </div>
+      <div>Right Side</div>
     </nav>
   );
 }
