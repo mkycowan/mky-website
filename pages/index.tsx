@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Link from "next/link";
 
 import { ArticleMeta } from "utils/types";
 import { getBlogPosts } from "@utils/content";
@@ -15,6 +14,7 @@ interface HomePageProps {
 }
 
 const Home = ({ articles }: HomePageProps) => {
+  console.log(articles);
   return (
     <div>
       <Head>

@@ -40,7 +40,7 @@ export function Introduction() {
           </span>
           <div className="my-4">
             <h1 className="text-zinc-500 text-4xl sm:text-5xl md:text-6xl">
-              Hey, <span className="text-zinc-100">I'm Michael</span> and
+              Hey, <span className="text-zinc-100">I&apos;m Michael</span> and
             </h1>
             <h1 className="text-zinc-500 text-4xl sm:text-5xl md:text-6xl">
               this is <span className="text-zinc-100">Mikeyverse</span> v2.0

@@ -20,8 +20,12 @@ const Home = ({ articles }: HomePageProps) => {
       <main>
         <h1 className="text-2xl">Blog.</h1>
         {articles.map((article, index) => (
-          <Link href={`/blog/${article.slug}`} key={article.slug || index}>
-            <h1>{article?.title || ""}</h1>
+          <Link
+            href={`/blog/${article.slug}`}
+            passHref
+            key={article.slug || index}
+          >
+            <a>{article?.title || ""}</a>
           </Link>
         ))}
       </main>
