@@ -46,7 +46,7 @@ export function Introduction() {
             01 - Introduction
           </span>
           <div className="my-4 text-4xl sm:text-5xl lg:text-6xl">
-            <h1 className="">
+            <h1 className="leading-none">
               JavaScript Software Engineer{" "}
               <span className="text-zinc-500">
                 with a passion for UX &amp; DX.
@@ -95,7 +95,7 @@ export function Introduction() {
               <div className="h-16 w-16 shrink-0 border-2 border-zinc-400 rounded-lg" />
               <div className="h-16 ml-3">
                 <p className="text-sm md:text-base">{testimonial.name}</p>
-                <p className="text-ellipsis overflow-hidden text-xs md:text-sm text-zinc-400">
+                <p className="text-ellipsis overflow-hidden text-sm text-zinc-400">
                   {testimonial.review}
                 </p>
               </div>

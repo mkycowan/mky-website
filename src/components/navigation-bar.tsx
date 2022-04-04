@@ -20,12 +20,12 @@ export function NavigationBar() {
           </div>
         </Link>
       </div>
-      <div className="text-lg">
+      <div className="text-lg md:text-xl">
         <div className="hidden lg:flex">
           <Link href="/about">
             <a className="mr-6">About</a>
           </Link>
-          <Link href="/work">
+          <Link href="/portfolio">
             <a className="mr-6">Portfolio</a>
           </Link>
           <Link href="/blog">

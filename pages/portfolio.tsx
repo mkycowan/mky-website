@@ -15,7 +15,7 @@ const Portfolio = () => {
             <h1>{article?.title || ""}</h1>
           </Link>
         ))} */}
-        About
+        Portfolio
       </main>
     </div>
   );

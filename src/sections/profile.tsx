@@ -6,6 +6,7 @@ import {
   LinkedInIcon,
   MapPinIcon,
   TwitterIcon,
+  UserIcon,
 } from "@utils/icons";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -43,8 +44,8 @@ export function Profile() {
 
   return (
     <section className="py-0 md:py-8 border-b-0 border-zinc-800">
-      <div className="flex items-end">
-        <div>
+      <div className="flex flex-col items-start sm:flex-row sm:items-end">
+        <div className="mb-4">
           <svg
             viewBox="0 0 80 80"
             fill="none"
@@ -139,11 +140,11 @@ export function Profile() {
           /> */}
         </div>
         <div className="flex-1 flex justify-end">
-          <a className="flex items-center max-w-fit py-2 px-5 bg-zinc-300 hover:bg-zinc-400 text-zinc-700 text-md cursor-pointer rounded-md">
+          <a className="flex items-center max-w-fit py-2 px-5 bg-zinc-300 hover:bg-zinc-400 text-zinc-700 text-md whitespace-nowrap cursor-pointer rounded-md">
+            <TwitterIcon className="h-5 mr-2" />
             Follow Me
-            {/* <DownloadIcon className="h-5 ml-2" /> */}
           </a>
-          <a className="flex items-center justify-center h-10 w-10 ml-2 bg-zinc-600 hover:bg-zinc-700 text-zinc-400 text-md cursor-pointer rounded-full">
+          <a className="flex items-center justify-center h-10 w-10 ml-4 bg-zinc-600 hover:bg-zinc-700 text-zinc-400 text-md cursor-pointer rounded-full">
             <GitHubIcon className="h-5" />
           </a>
           <a className="flex items-center justify-center h-10 w-10 ml-2 bg-zinc-600 hover:bg-zinc-700 text-zinc-400 text-md cursor-pointer rounded-full">
@@ -154,26 +155,31 @@ export function Profile() {
       <div className="flex items-center mt-4">
         <h2 className="text-3xl">Michael Cowan</h2>
       </div>
-      <div className="flex items-center mt-2 text-lg text-zinc-500">
-        <span className="">@mkycowan</span>
-        <span className="flex items-center ml-4">
+      {/* Info */}
+      <div className="flex flex-col items-start md:flex-row md:items-center mt-2 md:text-lg text-zinc-500">
+        <span className="flex items-center mb-2 mr-4">
+          <UserIcon className="h-5 mr-1" /> @mkycowan
+        </span>
+        <span className="flex items-center mb-2 mr-4">
           <MapPinIcon className="h-5 mr-1" /> Jamaica
         </span>
-        <span className="flex items-center ml-4">
+        <span className="flex items-center mb-2">
           <CalendarIcon className="h-5 mr-1" /> Coding since 2019
         </span>
       </div>
-      <div className="flex items-center mt-2 text-lg text-zinc-400">
+      {/* Description */}
+      <div className="flex items-center mt-1 text-lg text-zinc-400">
         Software Engineer - Serial Creator - Founder @ Fabrik Software
       </div>
-      <div className="flex items-center mt-2 text-lg text-zinc-500">
+      {/* Stats */}
+      <div className="flex flex-col items-start md:flex-row md:items-center mt-2 text-lg text-zinc-500">
+        <span className="flex items-center mr-4">
+          <span className="text-zinc-200 mr-1">000</span> Companies Worked With
+        </span>
+        <span className="flex items-center mr-4">
+          <span className="text-zinc-200 mr-1">000</span> Projects Launched
+        </span>
         <span className="flex items-center">
-          <span className="text-zinc-200 mr-1">000</span> Worked With
-        </span>
-        <span className="flex items-center ml-4">
-          <span className="text-zinc-200 mr-1">000</span> Projects
-        </span>
-        <span className="flex items-center ml-4">
           <span className="text-zinc-200 mr-1">000</span> Ventures
         </span>
       </div>
