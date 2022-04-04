@@ -80,7 +80,7 @@ export function Expertise() {
       </p>
       <div className="my-8 grid grid-cols-3 lg:grid-cols-5 gap-4 md:gap-12">
         <div className="flex items-center justify-center h-10 md:h-12">
-          <MGMIcon />
+          <MGMIcon className="h-full" />
         </div>
         <div className="flex items-center  justify-center h-10 md:h-12">
           <SFIcon className="h-full" />

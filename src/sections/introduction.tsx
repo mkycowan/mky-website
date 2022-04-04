@@ -3,7 +3,6 @@ import {
   GitHubIcon,
   LinkedInIcon,
   TwitterIcon,
-  YoutubeIcon,
 } from "@utils/icons";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -47,35 +46,25 @@ export function Introduction() {
             01 - Introduction
           </span>
           <div className="my-4 text-4xl sm:text-5xl lg:text-6xl">
-            {/* <h1 className="text-zinc-500">
-              Hey, <span className="text-zinc-100">I&apos;m Michael</span> and
-            </h1>
-            <h1 className="text-zinc-500">
-              this is <span className="text-zinc-100">Mikeyverse</span> v2.0
-            </h1> */}
-            <h1>
+            <h1 className="">
               JavaScript Software Engineer{" "}
               <span className="text-zinc-500">
-                with a passion for UX and DX.
+                with a passion for UX &amp; DX.
               </span>
             </h1>
           </div>
-          <p className="mt-6 mb-4 text-xl sm:text-2xl md:text-2xl text-zinc-400">
+          <p className="mt-6 mb-4 text-lg sm:text-2xl md:text-2xl text-zinc-400">
             Software Engineer @ Superformula
             <br />
             Building interactive interfaces and intuitive workflows.
           </p>
-          {/* <input
-            type="email"
-            name="email"
-            className="mt-4 px-4 py-2 w-1/2 bg-zinc-600 border shadow-sm border-zinc-500 placeholder-zinc-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1"
-            placeholder="Your email address"
-          /> */}
           <div className="flex items-center mt-6">
-            <a className="shrink flex items-center w-auto py-2 px-5 bg-zinc-200 hover:bg-zinc-300 text-zinc-700 text-lg cursor-pointer rounded-full">
-              <span className="whitespace-nowrap">View Portfolio</span>
-              <ArrowDownIcon className="h-5 ml-2" />
-            </a>
+            <Link href="#portfolio">
+              <a className="shrink flex items-center w-auto py-2 px-5 bg-zinc-200 hover:bg-zinc-300 text-zinc-700 text-lg cursor-pointer rounded-full">
+                <span className="whitespace-nowrap">View Portfolio</span>
+                <ArrowDownIcon className="h-5 ml-2" />
+              </a>
+            </Link>
             <div className="py-3 px-5 ml-6 grid grid-cols-3 gap-x-3 rounded-full bg-zinc-800">
               <Link href="/" passHref>
                 <TwitterIcon className="h-5 ml-1 text-zinc-300 hover:text-zinc-200 cursor-pointer" />

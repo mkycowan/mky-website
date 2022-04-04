@@ -1,9 +1,7 @@
 import React from "react";
 import Head from "next/head";
 
-import { Profile } from "@sections/profile";
-
-const About = () => {
+const Portfolio = () => {
   return (
     <div>
       <Head>
@@ -12,10 +10,15 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Profile />
+        {/* {articles.map((article, index) => (
+          <Link href={`/blog/${article.slug}`} key={article.slug || index}>
+            <h1>{article?.title || ""}</h1>
+          </Link>
+        ))} */}
+        About
       </main>
     </div>
   );
 };
 
-export default About;
+export default Portfolio;

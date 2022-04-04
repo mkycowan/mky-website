@@ -1,10 +1,11 @@
+import Link from "next/link";
 import React from "react";
 
 // Inspiration - Attio
 
 export function SideProjects() {
   return (
-    <section className="py-8 border-y-0 border-zinc-800">
+    <section id="portfolio" className="py-8 border-y-0 border-zinc-800">
       <span className="bg-zinc-600/75 text-zinc-300 py-1 px-2 text-sm rounded">
         04 - Side Projects
       </span>
@@ -52,6 +53,14 @@ export function SideProjects() {
             Preview Container
           </div>
         </div>
+      </div>
+      <div className="flex justify-center mt-8">
+        <Link href="/portfolio">
+          <a className="flex items-center max-w-fit mt-4 py-2 px-5 border hover:bg-zinc-600/50 text-zinc-300 text-lg cursor-pointer rounded-full">
+            More Side Projects
+            {/* <DownloadIcon className="h-5 ml-2" /> */}
+          </a>
+        </Link>
       </div>
     </section>
   );

@@ -20,10 +20,24 @@ export function NavigationBar() {
           </div>
         </Link>
       </div>
-      <div>
-        {/* <div className="lg:hidden p-1.5 rounded-sm bg-zinc-600">
+      <div className="text-lg">
+        <div className="hidden lg:flex">
+          <Link href="/about">
+            <a className="mr-6">About</a>
+          </Link>
+          <Link href="/work">
+            <a className="mr-6">Portfolio</a>
+          </Link>
+          <Link href="/blog">
+            <a className="mr-6">Blog</a>
+          </Link>
+          <Link href="/shop">
+            <a className="">Shop</a>
+          </Link>
+        </div>
+        <div className="lg:hidden p-1.5 rounded-sm bg-zinc-600">
           <MenuIcon className="h-6" />
-        </div> */}
+        </div>
       </div>
     </nav>
   );
