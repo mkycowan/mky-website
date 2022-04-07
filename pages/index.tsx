@@ -8,7 +8,6 @@ import { Introduction } from "@sections/introduction";
 import { Expertise } from "@sections/expertise";
 import { SideProjects } from "@sections/side-projects";
 import { Backlog } from "@sections/backlog";
-import { Resume } from "@sections/resume";
 
 interface HomePageProps {
   articles: Array<ArticleMeta>;
