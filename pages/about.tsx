@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 
 import { Profile } from "@sections/profile";
+import { Resume } from "@sections/resume";
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
       </Head>
       <main>
         <Profile />
+        <Resume />
       </main>
     </div>
   );

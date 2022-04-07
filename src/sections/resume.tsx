@@ -5,7 +5,7 @@ import React from "react";
 
 export function Resume() {
   return (
-    <section className="my-8 pt-8 border-b-0 border-zinc-800 rounded-lg backdrop-blur-lg bg-zinc-800/50 overflow-hidden">
+    <section className="my-8 mb-16 pt-8 border-b-0 border-zinc-800 rounded-lg backdrop-blur-lg bg-zinc-800/50 overflow-hidden">
       <div className="grid grid-cols-2 gap-8">
         <div className="relative order-last md:order-first col-span-full md:col-span-1 h-60">
           <div className="absolute top-20 bottom-0 right-24 w-3/4 md:w-7/12 bg-zinc-400 rounded-xl rounded-b-none drop-shadow-xl -rotate-12" />

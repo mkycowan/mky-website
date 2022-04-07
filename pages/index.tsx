@@ -7,6 +7,7 @@ import { getBlogPosts } from "@utils/content";
 import { Introduction } from "@sections/introduction";
 import { Expertise } from "@sections/expertise";
 import { SideProjects } from "@sections/side-projects";
+import { Backlog } from "@sections/backlog";
 import { Resume } from "@sections/resume";
 
 interface HomePageProps {
@@ -30,8 +31,9 @@ const Home = ({ articles }: HomePageProps) => {
         ))} */}
         <Introduction />
         <Expertise />
-        <Resume />
+        {/* <Resume /> */}
         <SideProjects />
+        <Backlog />
       </main>
     </div>
   );
@@ -39,7 +41,6 @@ const Home = ({ articles }: HomePageProps) => {
 
 export async function getStaticProps() {
   const articles = await getBlogPosts({ limit: 0 });
-
   return {
     props: {
       articles: articles,

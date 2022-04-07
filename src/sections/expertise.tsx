@@ -10,6 +10,7 @@ import {
   SFTextIcon,
   SMSIcon,
 } from "@utils/icons";
+import Link from "next/link";
 
 export function Expertise() {
   return (
@@ -18,11 +19,12 @@ export function Expertise() {
         02 - Skillset
       </span>
       <h2 className="my-4 text-2xl md:text-3xl lg:text-4xl">
-        --- Expertise ---
+        {/* --- Expertise --- */}
+        Knowledge and Skills
       </h2>
       <p className="mb-8 sm:w-8/12 lg:w-6/12 text-center text-zinc-500">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo autem ipsa
-        quibusdam harum placeat explicabo.
+        I work mainly as a Frontend Engineer but experiment with mobile, tooling
+        and systems design.
       </p>
       <div className="w-full grid grid-cols-3 gap-8">
         <div className="bg-gradient-to-b from-zinc-800 to-zinc-700/75 p-1 h-auto col-span-full md:col-span-1 flex flex-col rounded-2xl">
@@ -36,9 +38,11 @@ export function Expertise() {
                 </span>
                 Project description
               </p>
-              <a className="shrink flex items-center w-auto mt-4 py-2 px-3 bg-zinc-600 hover:bg-zinc-700 text-sm cursor-pointer rounded-md">
-                <BookmarkIcon className="h-4 mr-1" /> Learn More
-              </a>
+              <Link href="/blog?category=interaction">
+                <a className="shrink flex items-center w-auto mt-4 py-2 px-3 bg-zinc-600 hover:bg-zinc-700 text-sm cursor-pointer rounded-md">
+                  <BookmarkIcon className="h-4 mr-1" /> Learn More
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -53,9 +57,11 @@ export function Expertise() {
                 </span>
                 Project description
               </p>
-              <a className="shrink flex items-center w-auto mt-4 py-2 px-3 bg-zinc-600 hover:bg-zinc-700 text-sm cursor-pointer rounded-md">
-                <BookmarkIcon className="h-4 mr-1" /> Learn More
-              </a>
+              <Link href="/blog?category=microfrontend">
+                <a className="shrink flex items-center w-auto mt-4 py-2 px-3 bg-zinc-600 hover:bg-zinc-700 text-sm cursor-pointer rounded-md">
+                  <BookmarkIcon className="h-4 mr-1" /> Learn More
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -68,9 +74,11 @@ export function Expertise() {
                 <span className="block text-zinc-100">Web Performance</span>
                 Project description
               </p>
-              <a className="shrink flex items-center w-auto mt-4 py-2 px-3 bg-zinc-600 hover:bg-zinc-700 text-sm cursor-pointer rounded-md">
-                <BookmarkIcon className="h-4 mr-1" /> Learn More
-              </a>
+              <Link href="/blog?category=performance">
+                <a className="shrink flex items-center w-auto mt-4 py-2 px-3 bg-zinc-600 hover:bg-zinc-700 text-sm cursor-pointer rounded-md">
+                  <BookmarkIcon className="h-4 mr-1" /> Learn More
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -93,8 +101,11 @@ export function Expertise() {
         <div className="flex items-center  justify-center h-10 md:h-16">
           <AGICIcon className="h-full" />
         </div>
-        <div className="flex items-center  justify-center h-10 md:h-12">
-          Placeholder
+        <div className="flex items-center h-10 md:h-12">
+          <span className="mr-2 text-2xl md:text-5xl text-bold">2+</span>
+          <span className="text-xs md:text-base leading-none">
+            Independent <br /> Digital Products
+          </span>
         </div>
       </div>
     </section>

@@ -31,12 +31,15 @@ export function NavigationBar() {
           <Link href="/blog">
             <a className="mr-6">Blog</a>
           </Link>
+          {/* <Link href="/freebies">
+            <a className="mr-6">Freebies</a>
+          </Link> */}
           <Link href="/shop">
             <a className="">Shop</a>
           </Link>
         </div>
         <div className="lg:hidden p-1.5 rounded-sm bg-zinc-600">
-          <MenuIcon className="h-6" />
+          {/* <MenuIcon className="h-6" /> */}
         </div>
       </div>
     </nav>

@@ -46,7 +46,7 @@ export function Profile() {
     <section className="py-0 md:py-8 border-b-0 border-zinc-800">
       <div className="flex flex-col items-start sm:flex-row sm:items-end">
         <div className="mb-4">
-          <svg
+          {/* <svg
             viewBox="0 0 80 80"
             fill="none"
             role="img"
@@ -54,10 +54,9 @@ export function Profile() {
             width="128"
             height="128"
           >
-            <title>Alicia Dickerson</title>
+            <title>Michael Cowan</title>
             <mask
-              id="mask__pixel"
-              mask-type="alpha"
+              id="mask__bauhaus"
               maskUnits="userSpaceOnUse"
               x="0"
               y="0"
@@ -66,78 +65,34 @@ export function Profile() {
             >
               <rect width="80" height="80" rx="160" fill="#FFFFFF"></rect>
             </mask>
-            <g mask="url(#mask__pixel)">
-              <rect width="10" height="10"></rect>
-              <rect x="20" width="10" height="10" fill="#6c788e"></rect>
-              <rect x="40" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="60" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="10" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="30" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="50" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="70" width="10" height="10" fill="#6c788e"></rect>
-              <rect y="10" width="10" height="10" fill="#6c788e"></rect>
-              <rect y="20" width="10" height="10" fill="#a6aec1"></rect>
-              <rect y="30" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect y="40" width="10" height="10" fill="#a6aec1"></rect>
-              <rect y="50" width="10" height="10" fill="#a6aec1"></rect>
-              <rect y="60" width="10" height="10" fill="#ededf2"></rect>
-              <rect y="70" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="20" y="10" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="20" y="20" width="10" height="10" fill="#6c788e"></rect>
-              <rect x="20" y="30" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="20" y="40" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="20" y="50" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="20" y="60" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="20" y="70" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="40" y="10" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="40" y="20" width="10" height="10" fill="#fcfdff"></rect>
-              <rect x="40" y="30" width="10" height="10" fill="#ededf2"></rect>
-              <rect x="40" y="40" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="40" y="50" width="10" height="10" fill="#ededf2"></rect>
-              <rect x="40" y="60" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="40" y="70" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="60" y="10" width="10" height="10" fill="#6c788e"></rect>
-              <rect x="60" y="20" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="60" y="30" width="10" height="10" fill="#ededf2"></rect>
-              <rect x="60" y="40" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="60" y="50" width="10" height="10" fill="#ededf2"></rect>
-              <rect x="60" y="60" width="10" height="10" fill="#fcfdff"></rect>
-              <rect x="60" y="70" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="10" y="10" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="10" y="20" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="10" y="30" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="10" y="40" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="10" y="50" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="10" y="60" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="10" y="70" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="30" y="10" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="30" y="20" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="30" y="30" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="30" y="40" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="30" y="50" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="30" y="60" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="30" y="70" width="10" height="10" fill="#6c788e"></rect>
-              <rect x="50" y="10" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="50" y="20" width="10" height="10" fill="#fcfdff"></rect>
-              <rect x="50" y="30" width="10" height="10" fill="#fcfdff"></rect>
-              <rect x="50" y="40" width="10" height="10" fill="#ededf2"></rect>
-              <rect x="50" y="50" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="50" y="60" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="50" y="70" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="70" y="10" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="70" y="20" width="10" height="10" fill="#fcfdff"></rect>
-              <rect x="70" y="30" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="70" y="40" width="10" height="10" fill="#cfd5e1"></rect>
-              <rect x="70" y="50" width="10" height="10" fill="#a6aec1"></rect>
-              <rect x="70" y="60" width="10" height="10" fill="#ededf2"></rect>
-              <rect x="70" y="70" width="10" height="10" fill="#ededf2"></rect>
+            <g mask="url(#mask__bauhaus)">
+              <rect width="80" height="80" fill="#71717a"></rect>
+              <rect
+                x="10"
+                y="30"
+                width="80"
+                height="10"
+                fill="#a1a1aa"
+                transform="translate(-16 16) rotate(322 40 40)"
+              ></rect>
+              <circle
+                cx="40"
+                cy="40"
+                fill="#e4e4e7"
+                r="16"
+                transform="translate(-3 3)"
+              ></circle>
+              <line
+                x1="0"
+                y1="40"
+                x2="80"
+                y2="40"
+                strokeWidth="2"
+                stroke="#fcfdff"
+                transform="translate(-4 4) rotate(284 40 40)"
+              ></line>
             </g>
-          </svg>
-          {/* <img
-            className="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0"
-            src="/img/erin-lindford.jpg"
-            alt="Woman's Face"
-          /> */}
+          </svg> */}
         </div>
         <div className="flex-1 flex justify-end">
           <a className="flex items-center max-w-fit py-2 px-5 bg-zinc-300 hover:bg-zinc-400 text-zinc-700 text-md whitespace-nowrap cursor-pointer rounded-md">

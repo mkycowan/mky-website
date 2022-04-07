@@ -53,7 +53,7 @@ export function Introduction() {
               </span>
             </h1>
           </div>
-          <p className="mt-6 mb-4 text-lg sm:text-2xl md:text-2xl text-zinc-400">
+          <p className="mt-6 mb-4 pl-4 text-lg sm:text-2xl md:text-2xl text-zinc-400 border-l-4 border-zinc-400">
             Software Engineer @ Superformula
             <br />
             Building interactive interfaces and intuitive workflows.
@@ -67,13 +67,19 @@ export function Introduction() {
             </Link>
             <div className="py-3 px-5 ml-6 grid grid-cols-3 gap-x-3 rounded-full bg-zinc-800">
               <Link href="/" passHref>
-                <TwitterIcon className="h-5 ml-1 text-zinc-300 hover:text-zinc-200 cursor-pointer" />
+                <a>
+                  <TwitterIcon className="h-5 ml-1 text-zinc-300 hover:text-zinc-200 cursor-pointer" />
+                </a>
               </Link>
               <Link href="/" passHref>
-                <GitHubIcon className="h-5 text-zinc-300 hover:text-zinc-200 cursor-pointer" />
+                <a>
+                  <GitHubIcon className="h-5 text-zinc-300 hover:text-zinc-200 cursor-pointer" />
+                </a>
               </Link>
               <Link href="/" passHref>
-                <LinkedInIcon className="h-5 text-zinc-300 hover:text-zinc-200 cursor-pointer" />
+                <a>
+                  <LinkedInIcon className="h-5 text-zinc-300 hover:text-zinc-200 cursor-pointer" />
+                </a>
               </Link>
             </div>
           </div>
@@ -92,8 +98,8 @@ export function Introduction() {
               key={testimonial.name}
               className="p-3 mb-4 flex bg-zinc-800 rounded-xl"
             >
-              <div className="h-16 w-16 shrink-0 border-2 border-zinc-400 rounded-lg" />
-              <div className="h-16 ml-3">
+              <div className="h-20 w-16 md:h-16 md:w-16 shrink-0 border-2 border-zinc-400 rounded-lg" />
+              <div className="h-auto md:h-16 ml-3">
                 <p className="text-sm md:text-base">{testimonial.name}</p>
                 <p className="text-ellipsis overflow-hidden text-sm text-zinc-400">
                   {testimonial.review}
