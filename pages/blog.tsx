@@ -1,6 +1,7 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState, useEffect, useCallback } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 import { Categories, ArticleMeta } from "utils/types";
 import { getBlogPosts } from "@utils/content";
@@ -12,8 +13,15 @@ interface HomePageProps {
 }
 
 const Home = ({ articles }: HomePageProps) => {
+  const router = useRouter();
+  const defaultCategory = Categories[0];
+  const category = router?.query?.category || defaultCategory;
   const [filteredArticles, setFilteredArticles] = useState(articles);
-  const [selectedCategory, setSelectedCategory] = useState(Categories[0]);
+  const [selectedCategory, setSelectedCategory] = useState(category);
+
+  useEffect(() => {
+    setSelectedCategory(category);
+  }, [category]);
 
   useEffect(() => {
     if (selectedCategory === "all") {
@@ -24,9 +32,6 @@ const Home = ({ articles }: HomePageProps) => {
       );
       setFilteredArticles([...articlesFilteredByCategory]);
     }
-    // return () => {
-    //   second
-    // }
   }, [articles, selectedCategory]);
 
   return (
@@ -50,7 +55,7 @@ const Home = ({ articles }: HomePageProps) => {
           <div className="w-full md:w-auto mb-5">
             <div className="hidden md:block">
               <ArticleFilter
-                selectCategory={setSelectedCategory}
+                // selectCategoryHandler={handleCategorySelect}
                 selectedCategory={selectedCategory}
               />
             </div>
