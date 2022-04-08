@@ -44,56 +44,7 @@ export function Profile() {
 
   return (
     <section className="py-0 md:py-8 border-b-0 border-zinc-800">
-      <div className="flex flex-col items-start sm:flex-row sm:items-end">
-        <div className="mb-4">
-          {/* <svg
-            viewBox="0 0 80 80"
-            fill="none"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
-            width="128"
-            height="128"
-          >
-            <title>Michael Cowan</title>
-            <mask
-              id="mask__bauhaus"
-              maskUnits="userSpaceOnUse"
-              x="0"
-              y="0"
-              width="80"
-              height="80"
-            >
-              <rect width="80" height="80" rx="160" fill="#FFFFFF"></rect>
-            </mask>
-            <g mask="url(#mask__bauhaus)">
-              <rect width="80" height="80" fill="#71717a"></rect>
-              <rect
-                x="10"
-                y="30"
-                width="80"
-                height="10"
-                fill="#a1a1aa"
-                transform="translate(-16 16) rotate(322 40 40)"
-              ></rect>
-              <circle
-                cx="40"
-                cy="40"
-                fill="#e4e4e7"
-                r="16"
-                transform="translate(-3 3)"
-              ></circle>
-              <line
-                x1="0"
-                y1="40"
-                x2="80"
-                y2="40"
-                strokeWidth="2"
-                stroke="#fcfdff"
-                transform="translate(-4 4) rotate(284 40 40)"
-              ></line>
-            </g>
-          </svg> */}
-        </div>
+      {/* <div className="flex flex-col items-start sm:flex-row sm:items-end bg-gray-700">
         <div className="flex-1 flex justify-end">
           <a className="flex items-center max-w-fit py-2 px-5 bg-zinc-300 hover:bg-zinc-400 text-zinc-700 text-md whitespace-nowrap cursor-pointer rounded-md">
             <TwitterIcon className="h-5 mr-2" />
@@ -106,8 +57,8 @@ export function Profile() {
             <GitHubIcon className="h-5" />
           </a>
         </div>
-      </div>
-      <div className="flex items-center mt-4">
+      </div> */}
+      <div className="flex items-center">
         <h2 className="text-3xl">Michael Cowan</h2>
       </div>
       {/* Info */}

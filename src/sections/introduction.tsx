@@ -45,20 +45,20 @@ export function Introduction() {
           <span className="inline-block bg-zinc-600/75 text-zinc-300 mb-2 py-1 px-2 text-sm rounded">
             01 - Introduction
           </span>
-          <div className="my-4 text-4xl sm:text-5xl lg:text-6xl">
+          <div className="my-6 text-4xl sm:text-5xl lg:text-6xl">
             <h1 className="leading-none">
-              JavaScript Software Engineer{" "}
+              JavaScript Engineer{" "}
               <span className="text-zinc-500">
                 with a passion for UX &amp; DX.
               </span>
             </h1>
           </div>
-          <p className="mt-6 mb-4 pl-4 text-lg sm:text-2xl md:text-2xl text-zinc-400 border-l-4 border-zinc-400">
+          <p className="mt-8 mb-4 pl-4 text-lg sm:text-2xl md:text-2xl text-zinc-400 border-l-4 border-zinc-400">
             Software Engineer @ Superformula
             <br />
             Building interactive interfaces and intuitive workflows.
           </p>
-          <div className="flex items-center mt-6">
+          <div className="flex items-center mt-8">
             <Link href="#portfolio">
               <a className="shrink flex items-center w-auto py-2 px-5 bg-zinc-200 hover:bg-zinc-300 text-zinc-700 text-lg cursor-pointer rounded-full">
                 <span className="whitespace-nowrap">View Portfolio</span>

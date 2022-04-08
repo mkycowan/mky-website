@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 
 import { Profile } from "@sections/profile";
+import { WorkHistory } from "@sections/work-history";
 import { Resume } from "@sections/resume";
 
 const About = () => {
@@ -14,6 +15,7 @@ const About = () => {
       </Head>
       <main>
         <Profile />
+        <WorkHistory />
         <Resume />
       </main>
     </div>
